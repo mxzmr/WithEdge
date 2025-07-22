@@ -5,7 +5,7 @@
 //  Created by Max zam on 19/07/2025.
 //
 
-struct Stock: Codable {
+struct Stock: Codable, Equatable, Hashable {
     let symbol: String
     let open: Double
     let close: Double
